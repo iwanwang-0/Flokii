@@ -69,7 +69,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "client/js/" + ({}[chunkId]||chunkId) + "." + {"chunk-a35a6dee":"43906e52"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "client/js/" + ({}[chunkId]||chunkId) + "." + {"chunk-1fbbba2c":"3665b36c"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -103,11 +103,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"chunk-a35a6dee":1};
+/******/ 		var cssChunks = {"chunk-1fbbba2c":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "client/css/" + ({}[chunkId]||chunkId) + "." + {"chunk-a35a6dee":"80a6f809"}[chunkId] + ".css";
+/******/ 				var href = "client/css/" + ({}[chunkId]||chunkId) + "." + {"chunk-1fbbba2c":"95b8f575"}[chunkId] + ".css";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
@@ -1184,7 +1184,7 @@ var routes = [{
     path: '/',
     name: 'Home',
     component: function component() {
-      return __webpack_require__.e(/* import() */ "chunk-a35a6dee").then(__webpack_require__.bind(null, "16c0"));
+      return __webpack_require__.e(/* import() */ "chunk-1fbbba2c").then(__webpack_require__.bind(null, "16c0"));
     }
   } // {
   //   path: '/auction',
@@ -1546,6 +1546,27 @@ var trimAddress = function trimAddress(address) {
 };
 
 vue_common_default.a.filter('trimAddress', trimAddress);
+// CONCATENATED MODULE: ./src/directive/numberInput.js
+
+
+
+
+function onInput(el, ele, binding, vnode) {
+  function handle() {
+    // 只保留数字
+    ele.value = ele.value.replace(/[^\d]/g, '');
+  }
+
+  return handle;
+}
+
+var numberInput = {
+  bind: function bind(el, binding, vnode) {
+    var ele = el.tagName === 'INPUT' ? el : el.querySelector('input');
+    ele.addEventListener('input', onInput(el, ele, binding, vnode), false);
+  }
+};
+vue_common_default.a.directive('number-input', numberInput);
 // EXTERNAL MODULE: ./src/styles/theme-overrides/index.scss
 var theme_overrides = __webpack_require__("b38f");
 
@@ -1565,6 +1586,7 @@ var theme_overrides = __webpack_require__("b38f");
 
 
  // import Account from '@/eth/Account';
+
 
 
 

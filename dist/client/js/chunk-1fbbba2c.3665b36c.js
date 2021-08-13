@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["chunk-a35a6dee"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["chunk-1fbbba2c"],{
 
 /***/ "0821":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -40,12 +40,12 @@ module.exports = function repeat(count) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3750c3dc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home/index.vue?vue&type=template&id=67c4cc01&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home"},[_c('div',{staticClass:"container"},[_vm._m(0),_vm._m(1),_c('div',{staticClass:"slogan"},[_vm._v(" The #1 Meme Token on Ethereum Blockchain ")]),_c('div',{staticClass:"buy-section"},[_c('div',{staticClass:"buy-inner-section"},[_c('div',{staticClass:"buy-content"},[_vm._v(" Buy directly from your wallet. ")]),(!_vm.user.address)?_c('button',{staticClass:"connect-wallet",on:{"click":function($event){return _vm.$bvModal.show('select-modal')}}},[_vm._v("Connect Wallet")]):_vm._e(),(_vm.user.address && _vm.user.isWalletConnect)?_c('button',{staticClass:"connect-wallet",on:{"click":_vm.disconnect}},[_vm._v("Disconnect")]):_vm._e()]),_c('div',{staticClass:"button-group"},[_c('div',{staticClass:"buy-button",on:{"click":_vm.buyWithETH}},[_c('div',[_vm._v("Buy with ETH")]),_c('div',{staticClass:"price"},[_vm._v(_vm._s(_vm.ethPrice)+"ETH/1FLOKII")])]),_c('div',{staticClass:"buy-button",on:{"click":_vm.buyWithUSDT}},[_c('div',[_vm._v("Buy with USDT")]),_c('div',{staticClass:"price"},[_vm._v(_vm._s(_vm.usdtPrice)+"USDT/1FLOKII")])])])])]),_vm._m(2),_c('b-modal',{attrs:{"id":"buy-modal","modal-class":"buy-modal","centered":"","hide-footer":"","hide-header":""}},[_c('img',{staticClass:"close-btn",attrs:{"src":__webpack_require__("7b05"),"alt":""},on:{"click":function($event){return _vm.$bvModal.hide('buy-modal')}}}),_c('div',{staticClass:"d-block text-center"},[_c('div',{staticClass:"input-wrapper"},[_c('input',{directives:[{name:"model",rawName:"v-model.number",value:(_vm.amount),expression:"amount",modifiers:{"number":true}}],attrs:{"type":"text"},domProps:{"value":(_vm.amount)},on:{"input":function($event){if($event.target.composing){ return; }_vm.amount=_vm._n($event.target.value)},"blur":function($event){return _vm.$forceUpdate()}}}),_c('div',{staticClass:"amount"},[_vm._v(" "+_vm._s(_vm.total)+_vm._s(_vm.buyType)+" ")])])]),_c('div',{staticClass:"modal-button-group"},[_c('b-button',{on:{"click":function($event){return _vm.$bvModal.hide('buy-modal')}}},[_vm._v("Cancel")]),_c('b-button',{attrs:{"disabled":_vm.buyLoading},on:{"click":_vm.buy}},[_vm._v("Ok")])],1)]),_c('b-modal',{attrs:{"id":"select-modal","modal-class":"select-modal","centered":"","hide-footer":"","hide-header":""}},[_c('img',{staticClass:"close-btn",attrs:{"src":__webpack_require__("7b05"),"alt":""},on:{"click":function($event){return _vm.$bvModal.hide('select-modal')}}}),_c('div',{staticClass:"connect-button-group"},[_c('b-button',{on:{"click":_vm.unlockByMetaMask}},[_vm._v("Metamask")]),_c('b-button',{on:{"click":_vm.unlockByWalletConnect}},[_vm._v("WalletConnect")])],1)])],1)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"nav-bar"},[_c('div',{staticClass:"nav-logo-wrapper"},[_c('img',{staticClass:"nav-logo",attrs:{"src":__webpack_require__("31ab"),"alt":""}}),_vm._v(" FLOKII ")]),_c('div',{staticClass:"audit"},[_c('a',{attrs:{"href":"/Floki_Kishu_Inu.pdf"}},[_vm._v(" Audited By: TechRate ")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"logo-wrapper"},[_c('img',{attrs:{"src":__webpack_require__("e9ae"),"alt":""}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer"},[_c('div',{staticClass:"build-with"},[_vm._v(" Build with "),_c('img',{attrs:{"src":__webpack_require__("522d"),"alt":""}})]),_c('div',{staticClass:"footer-content"},[_c('div',{staticClass:"footer-logo-wrapper"},[_c('img',{attrs:{"src":__webpack_require__("31ab"),"alt":""}}),_vm._v(" FLOKII ")]),_c('div',{staticClass:"desc"},[_vm._v(" A decentralized community driven platform with facility of swap. earn. yield. lend. and borrow. leveraging under one application. Welcome to Defi universe. ")]),_c('div',{staticClass:"social-group"},[_c('a',{attrs:{"href":"https://twitter.com/flokikishu/status/1422106726342434817?s=21","target":"_blank"}},[_c('img',{attrs:{"src":__webpack_require__("7f330"),"alt":""}})]),_c('a',{attrs:{"href":"https://t.me/Flokikishu","target":"_blank"}},[_c('img',{attrs:{"src":__webpack_require__("96e2"),"alt":""}})]),_c('a',{attrs:{"href":"https://github.com/Floki-Kishu-Inu/","target":"_blank"}},[_c('img',{attrs:{"src":__webpack_require__("299a"),"alt":""}})])]),_c('div',{staticClass:"link-group"},[_c('a',{staticClass:"link-btn"},[_vm._v("Audit Report")]),_c('a',{staticClass:"link-btn"},[_vm._v("Support")]),_c('a',{staticClass:"link-btn"},[_vm._v("Floki-Kishu.io")])]),_c('div',{staticClass:"copyright"},[_vm._v(" 2021 FLOKI KISHU INU. ALL RIGHTS RESERVED ")])])])}]
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3750c3dc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home/index.vue?vue&type=template&id=3cb46c34&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home"},[_c('div',{staticClass:"container"},[_vm._m(0),_vm._m(1),_c('div',{staticClass:"slogan"},[_vm._v(" The #1 Meme Token on Ethereum Blockchain ")]),_c('div',{staticClass:"buy-section"},[_c('div',{staticClass:"buy-inner-section"},[_c('div',{staticClass:"buy-content"},[_vm._v(" Buy directly from your wallet. ")]),(!_vm.user.address)?_c('button',{staticClass:"connect-wallet",on:{"click":function($event){return _vm.$bvModal.show('select-modal')}}},[_vm._v("Connect Wallet")]):_vm._e(),(_vm.user.address && _vm.user.isWalletConnect)?_c('button',{staticClass:"connect-wallet",on:{"click":_vm.disconnect}},[_vm._v("Disconnect")]):_vm._e()]),_c('div',{staticClass:"button-group"},[_c('div',{staticClass:"buy-button",on:{"click":_vm.buyWithETH}},[_c('div',[_vm._v("Buy with ETH")]),_c('div',{staticClass:"price"},[_vm._v(_vm._s(_vm.ethPrice)+"ETH/1FLOKII")])]),_c('div',{staticClass:"buy-button",on:{"click":_vm.buyWithUSDT}},[_c('div',[_vm._v("Buy with USDT")]),_c('div',{staticClass:"price"},[_vm._v(_vm._s(_vm.usdtPrice)+"USDT/1FLOKII")])])])])]),_vm._m(2),_c('b-modal',{attrs:{"id":"buy-modal","modal-class":"buy-modal","centered":"","hide-footer":"","hide-header":""}},[_c('img',{staticClass:"close-btn",attrs:{"src":__webpack_require__("7b05"),"alt":""},on:{"click":function($event){return _vm.$bvModal.hide('buy-modal')}}}),_c('div',{staticClass:"d-block text-center"},[_c('div',{staticClass:"input-wrapper"},[_c('div',{staticClass:"amount-input"},[_c('input',{directives:[{name:"model",rawName:"v-model.number",value:(_vm.amount),expression:"amount",modifiers:{"number":true}},{name:"number-input",rawName:"v-number-input"}],ref:"amountInput",attrs:{"type":"text"},domProps:{"value":(_vm.amount)},on:{"input":function($event){if($event.target.composing){ return; }_vm.amount=_vm._n($event.target.value)},"blur":function($event){return _vm.$forceUpdate()}}}),_c('span',{staticClass:"unit"},[_vm._v("FLOKII")])]),_c('div',{staticClass:"amount"},[_vm._v(" "+_vm._s(_vm.total)+_vm._s(_vm.buyType)+" ")])])]),_c('div',{staticClass:"modal-button-group"},[_c('b-button',{on:{"click":function($event){return _vm.$bvModal.hide('buy-modal')}}},[_vm._v("Cancel")]),_c('b-button',{attrs:{"disabled":_vm.buyLoading},on:{"click":_vm.buy}},[_vm._v("Ok")])],1)]),_c('b-modal',{attrs:{"id":"select-modal","modal-class":"select-modal","centered":"","hide-footer":"","hide-header":""}},[_c('img',{staticClass:"close-btn",attrs:{"src":__webpack_require__("7b05"),"alt":""},on:{"click":function($event){return _vm.$bvModal.hide('select-modal')}}}),_c('div',{staticClass:"connect-button-group"},[_c('b-button',{on:{"click":_vm.unlockByMetaMask}},[_vm._v("Metamask")]),_c('b-button',{on:{"click":_vm.unlockByWalletConnect}},[_vm._v("WalletConnect")])],1)])],1)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"nav-bar"},[_c('div',{staticClass:"nav-logo-wrapper"},[_c('img',{staticClass:"nav-logo",attrs:{"src":__webpack_require__("31ab"),"alt":""}}),_vm._v(" FLOKII ")]),_c('div',{staticClass:"audit"},[_c('a',{attrs:{"href":"/Floki_Kishu_Inu.pdf"}},[_vm._v(" Audited By: TechRate ")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"logo-wrapper"},[_c('img',{attrs:{"src":__webpack_require__("e9ae"),"alt":""}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer"},[_c('div',{staticClass:"build-with"},[_vm._v(" Price feed by "),_c('img',{attrs:{"src":__webpack_require__("522d"),"alt":""}})]),_c('div',{staticClass:"footer-content"},[_c('div',{staticClass:"footer-logo-wrapper"},[_c('img',{attrs:{"src":__webpack_require__("31ab"),"alt":""}}),_vm._v(" FLOKII ")]),_c('div',{staticClass:"desc"},[_vm._v(" A decentralized community driven platform with facility of swap. earn. yield. lend. and borrow. leveraging under one application. Welcome to Defi universe. ")]),_c('div',{staticClass:"social-group"},[_c('a',{attrs:{"href":"https://twitter.com/flokikishu/status/1422106726342434817?s=21","target":"_blank"}},[_c('img',{attrs:{"src":__webpack_require__("7f330"),"alt":""}})]),_c('a',{attrs:{"href":"https://t.me/Flokikishu","target":"_blank"}},[_c('img',{attrs:{"src":__webpack_require__("96e2"),"alt":""}})]),_c('a',{attrs:{"href":"https://github.com/Floki-Kishu-Inu/","target":"_blank"}},[_c('img',{attrs:{"src":__webpack_require__("299a"),"alt":""}})])]),_c('div',{staticClass:"link-group"},[_c('a',{staticClass:"link-btn",attrs:{"href":"/Floki_Kishu_Inu.pdf"}},[_vm._v("Audit Report")]),_c('a',{staticClass:"link-btn",attrs:{"href":"mailto:Contact@floki-kishu.io"}},[_vm._v("Support")]),_c('a',{staticClass:"link-btn",attrs:{"href":"https://floki-kishu.io/#"}},[_vm._v("Floki-Kishu.io")])]),_c('div',{staticClass:"copyright"},[_vm._v(" 2021 FLOKI KISHU INU. ALL RIGHTS RESERVED ")])])])}]
 
 
-// CONCATENATED MODULE: ./src/views/Home/index.vue?vue&type=template&id=67c4cc01&scoped=true&
+// CONCATENATED MODULE: ./src/views/Home/index.vue?vue&type=template&id=3cb46c34&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 5 modules
 var slicedToArray = __webpack_require__("3835");
@@ -345,6 +345,14 @@ var sendTransaction = /*#__PURE__*/function () {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 // @ is an alias to /src
 
 
@@ -359,7 +367,7 @@ console.log(eth_ethereum["b" /* FLOKIIPreSaleInterface */]);
     return {
       buyType: '',
       buyLoading: false,
-      amount: 0,
+      amount: '',
       usdtPrice: 0.007,
       ethPrice: 0
     };
@@ -377,12 +385,16 @@ console.log(eth_ethereum["b" /* FLOKIIPreSaleInterface */]);
   },
   computed: Object(objectSpread2["a" /* default */])(Object(objectSpread2["a" /* default */])({}, Object(vuex_esm["c" /* mapState */])(['user'])), {}, {
     total: function total() {
-      if (this.buyType === 'usdt') {
-        return (this.amount * this.usdtPrice).toFixed(6);
-      }
+      // console.log(Number.isNaN(this.amount))
+      // console.log(this.amount)
+      if (this.amount > 0) {
+        if (this.buyType === 'USDT') {
+          return (this.amount * this.usdtPrice).toFixed(6);
+        }
 
-      if (this.buyType === 'eth') {
-        return (this.amount * this.ethPrice).toFixed(6);
+        if (this.buyType === 'ETH') {
+          return (this.amount * this.ethPrice).toFixed(6);
+        }
       }
 
       return 0;
@@ -437,7 +449,7 @@ console.log(eth_ethereum["b" /* FLOKIIPreSaleInterface */]);
       this.$store.dispatch('disconnectByWalletConnect');
     },
     buy: function buy() {
-      if (this.buyType === 'eth') {
+      if (this.buyType === 'ETH') {
         this.ethBuySubmit();
       } else {
         this.usdtBuySubmit();
@@ -466,11 +478,14 @@ console.log(eth_ethereum["b" /* FLOKIIPreSaleInterface */]);
                 return _context2.abrupt("return", false);
 
               case 3:
-                _this2.buyLoading = true;
+                _this2.buyLoading = true; // console.log(BigNumber.from(this.ethPrice * 1e18).mul(this.amount))
+                // console.log(BigNumber.from(this.amount))
+                // console.log(BigNumber.from(this.amount).mul(this.ethPrice).mul(1e18))
+
                 _context2.next = 6;
                 return common_sendTransaction({
                   to: config["a" /* default */].FLOKIIPreSaleAddress,
-                  value: ethers["utils"].hexValue(_this2.ethPrice * _this2.amount * 1e18),
+                  value: ethers["utils"].hexValue(bignumber["a" /* BigNumber */].from(_this2.ethPrice * 1e18).mul(_this2.amount)),
                   data: eth_ethereum["b" /* FLOKIIPreSaleInterface */].encodeFunctionData('purchaseByETH()')
                 });
 
@@ -617,6 +632,8 @@ console.log(eth_ethereum["b" /* FLOKIIPreSaleInterface */]);
       }))();
     },
     buyWithETH: function buyWithETH() {
+      var _this4 = this;
+
       if (!this.user.address) {
         __g_root__.$bvToast.toast('Please connect wallet', {
           title: this.$t('tip'),
@@ -627,10 +644,15 @@ console.log(eth_ethereum["b" /* FLOKIIPreSaleInterface */]);
         return false;
       }
 
-      this.buyType = 'eth';
+      this.buyType = 'ETH';
       this.$bvModal.show('buy-modal');
+      setTimeout(function () {
+        _this4.$refs.amountInput.focus();
+      }, 500);
     },
     buyWithUSDT: function buyWithUSDT() {
+      var _this5 = this;
+
       if (!this.user.address) {
         __g_root__.$bvToast.toast('Please connect wallet', {
           title: this.$t('tip'),
@@ -641,15 +663,18 @@ console.log(eth_ethereum["b" /* FLOKIIPreSaleInterface */]);
         return false;
       }
 
-      this.buyType = 'usdt';
+      this.buyType = 'USDT';
       this.$bvModal.show('buy-modal');
+      setTimeout(function () {
+        _this5.$refs.amountInput.focus();
+      }, 500);
     }
   }
 });
 // CONCATENATED MODULE: ./src/views/Home/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var views_Homevue_type_script_lang_js_ = (Homevue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/views/Home/index.vue?vue&type=style&index=0&id=67c4cc01&lang=scss&scoped=true&
-var Homevue_type_style_index_0_id_67c4cc01_lang_scss_scoped_true_ = __webpack_require__("f2a7");
+// EXTERNAL MODULE: ./src/views/Home/index.vue?vue&type=style&index=0&id=3cb46c34&lang=scss&scoped=true&
+var Homevue_type_style_index_0_id_3cb46c34_lang_scss_scoped_true_ = __webpack_require__("bbe6");
 
 // EXTERNAL MODULE: ./src/views/Home/index.vue?vue&type=style&index=1&lang=scss&
 var Homevue_type_style_index_1_lang_scss_ = __webpack_require__("0821");
@@ -673,7 +698,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   null,
-  "67c4cc01",
+  "3cb46c34",
   null
   
 )
@@ -739,6 +764,13 @@ module.exports = function (value) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "client/img/chainlink.1d5fe790.png";
+
+/***/ }),
+
+/***/ "669e":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -896,28 +928,21 @@ $({ target: 'Number', proto: true, forced: FORCED }, {
 
 /***/ }),
 
-/***/ "e9ae":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "client/img/top_logo.b565e6fd.png";
-
-/***/ }),
-
-/***/ "f2a7":
+/***/ "bbe6":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_67c4cc01_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f431");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_67c4cc01_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_67c4cc01_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_3cb46c34_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("669e");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_3cb46c34_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_3cb46c34_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
 
 
 /***/ }),
 
-/***/ "f431":
+/***/ "e9ae":
 /***/ (function(module, exports, __webpack_require__) {
 
-// extracted by mini-css-extract-plugin
+module.exports = __webpack_require__.p + "client/img/top_logo.b565e6fd.png";
 
 /***/ })
 
