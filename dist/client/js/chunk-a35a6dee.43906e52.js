@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["chunk-22fcf254"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["chunk-a35a6dee"],{
 
 /***/ "0821":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -40,12 +40,15 @@ module.exports = function repeat(count) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3750c3dc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home/index.vue?vue&type=template&id=c16e0f78&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"3750c3dc-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home/index.vue?vue&type=template&id=67c4cc01&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home"},[_c('div',{staticClass:"container"},[_vm._m(0),_vm._m(1),_c('div',{staticClass:"slogan"},[_vm._v(" The #1 Meme Token on Ethereum Blockchain ")]),_c('div',{staticClass:"buy-section"},[_c('div',{staticClass:"buy-inner-section"},[_c('div',{staticClass:"buy-content"},[_vm._v(" Buy directly from your wallet. ")]),(!_vm.user.address)?_c('button',{staticClass:"connect-wallet",on:{"click":function($event){return _vm.$bvModal.show('select-modal')}}},[_vm._v("Connect Wallet")]):_vm._e(),(_vm.user.address && _vm.user.isWalletConnect)?_c('button',{staticClass:"connect-wallet",on:{"click":_vm.disconnect}},[_vm._v("Disconnect")]):_vm._e()]),_c('div',{staticClass:"button-group"},[_c('div',{staticClass:"buy-button",on:{"click":_vm.buyWithETH}},[_c('div',[_vm._v("Buy with ETH")]),_c('div',{staticClass:"price"},[_vm._v(_vm._s(_vm.ethPrice)+"ETH/1FLOKII")])]),_c('div',{staticClass:"buy-button",on:{"click":_vm.buyWithUSDT}},[_c('div',[_vm._v("Buy with USDT")]),_c('div',{staticClass:"price"},[_vm._v(_vm._s(_vm.usdtPrice)+"USDT/1FLOKII")])])])])]),_vm._m(2),_c('b-modal',{attrs:{"id":"buy-modal","modal-class":"buy-modal","centered":"","hide-footer":"","hide-header":""}},[_c('img',{staticClass:"close-btn",attrs:{"src":__webpack_require__("7b05"),"alt":""},on:{"click":function($event){return _vm.$bvModal.hide('buy-modal')}}}),_c('div',{staticClass:"d-block text-center"},[_c('div',{staticClass:"input-wrapper"},[_c('input',{directives:[{name:"model",rawName:"v-model.number",value:(_vm.amount),expression:"amount",modifiers:{"number":true}}],attrs:{"type":"text"},domProps:{"value":(_vm.amount)},on:{"input":function($event){if($event.target.composing){ return; }_vm.amount=_vm._n($event.target.value)},"blur":function($event){return _vm.$forceUpdate()}}}),_c('div',{staticClass:"amount"},[_vm._v(" "+_vm._s(_vm.total)+_vm._s(_vm.buyType)+" ")])])]),_c('div',{staticClass:"modal-button-group"},[_c('b-button',{on:{"click":function($event){return _vm.$bvModal.hide('buy-modal')}}},[_vm._v("Cancel")]),_c('b-button',{attrs:{"disabled":_vm.buyLoading},on:{"click":_vm.buy}},[_vm._v("Ok")])],1)]),_c('b-modal',{attrs:{"id":"select-modal","modal-class":"select-modal","centered":"","hide-footer":"","hide-header":""}},[_c('img',{staticClass:"close-btn",attrs:{"src":__webpack_require__("7b05"),"alt":""},on:{"click":function($event){return _vm.$bvModal.hide('select-modal')}}}),_c('div',{staticClass:"connect-button-group"},[_c('b-button',{on:{"click":_vm.unlockByMetaMask}},[_vm._v("Metamask")]),_c('b-button',{on:{"click":_vm.unlockByWalletConnect}},[_vm._v("WalletConnect")])],1)])],1)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"nav-bar"},[_c('div',{staticClass:"nav-logo-wrapper"},[_c('img',{staticClass:"nav-logo",attrs:{"src":__webpack_require__("31ab"),"alt":""}}),_vm._v(" FLOKII ")]),_c('div',{staticClass:"audit"},[_vm._v(" Audited By: TechRate ")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"logo-wrapper"},[_c('img',{attrs:{"src":__webpack_require__("e9ae"),"alt":""}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer"},[_c('div',{staticClass:"build-with"},[_vm._v(" Build with "),_c('img',{attrs:{"src":__webpack_require__("522d"),"alt":""}})]),_c('div',{staticClass:"footer-content"},[_c('div',{staticClass:"footer-logo-wrapper"},[_c('img',{attrs:{"src":__webpack_require__("31ab"),"alt":""}}),_vm._v(" FLOKII ")]),_c('div',{staticClass:"desc"},[_vm._v(" A decentralized community driven platform with facility of swap. earn. yield. lend. and borrow. leveraging under one application. Welcome to Defi universe. ")]),_c('div',{staticClass:"social-group"},[_c('img',{attrs:{"src":__webpack_require__("7f330"),"alt":""}}),_c('img',{attrs:{"src":__webpack_require__("96e2"),"alt":""}}),_c('img',{attrs:{"src":__webpack_require__("299a"),"alt":""}})]),_c('div',{staticClass:"link-group"},[_c('button',{staticClass:"link-btn"},[_vm._v("Audit Report")]),_c('button',{staticClass:"link-btn"},[_vm._v("Support")]),_c('button',{staticClass:"link-btn"},[_vm._v("Floki-Kishu.io")])]),_c('div',{staticClass:"copyright"},[_vm._v(" 2021 FLOKI KISHU INU. ALL RIGHTS RESERVED ")])])])}]
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"nav-bar"},[_c('div',{staticClass:"nav-logo-wrapper"},[_c('img',{staticClass:"nav-logo",attrs:{"src":__webpack_require__("31ab"),"alt":""}}),_vm._v(" FLOKII ")]),_c('div',{staticClass:"audit"},[_c('a',{attrs:{"href":"/Floki_Kishu_Inu.pdf"}},[_vm._v(" Audited By: TechRate ")])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"logo-wrapper"},[_c('img',{attrs:{"src":__webpack_require__("e9ae"),"alt":""}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"footer"},[_c('div',{staticClass:"build-with"},[_vm._v(" Build with "),_c('img',{attrs:{"src":__webpack_require__("522d"),"alt":""}})]),_c('div',{staticClass:"footer-content"},[_c('div',{staticClass:"footer-logo-wrapper"},[_c('img',{attrs:{"src":__webpack_require__("31ab"),"alt":""}}),_vm._v(" FLOKII ")]),_c('div',{staticClass:"desc"},[_vm._v(" A decentralized community driven platform with facility of swap. earn. yield. lend. and borrow. leveraging under one application. Welcome to Defi universe. ")]),_c('div',{staticClass:"social-group"},[_c('a',{attrs:{"href":"https://twitter.com/flokikishu/status/1422106726342434817?s=21","target":"_blank"}},[_c('img',{attrs:{"src":__webpack_require__("7f330"),"alt":""}})]),_c('a',{attrs:{"href":"https://t.me/Flokikishu","target":"_blank"}},[_c('img',{attrs:{"src":__webpack_require__("96e2"),"alt":""}})]),_c('a',{attrs:{"href":"https://github.com/Floki-Kishu-Inu/","target":"_blank"}},[_c('img',{attrs:{"src":__webpack_require__("299a"),"alt":""}})])]),_c('div',{staticClass:"link-group"},[_c('a',{staticClass:"link-btn"},[_vm._v("Audit Report")]),_c('a',{staticClass:"link-btn"},[_vm._v("Support")]),_c('a',{staticClass:"link-btn"},[_vm._v("Floki-Kishu.io")])]),_c('div',{staticClass:"copyright"},[_vm._v(" 2021 FLOKI KISHU INU. ALL RIGHTS RESERVED ")])])])}]
 
 
-// CONCATENATED MODULE: ./src/views/Home/index.vue?vue&type=template&id=c16e0f78&scoped=true&
+// CONCATENATED MODULE: ./src/views/Home/index.vue?vue&type=template&id=67c4cc01&scoped=true&
+
+// EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 5 modules
+var slicedToArray = __webpack_require__("3835");
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js
 var asyncToGenerator = __webpack_require__("1da1");
@@ -118,7 +121,7 @@ var sendTransaction = /*#__PURE__*/function () {
           case 0:
             _ref2 = _args.length > 0 && _args[0] !== undefined ? _args[0] : {}, to = _ref2.to, data = _ref2.data, gas = _ref2.gas, _ref2$value = _ref2.value, value = _ref2$value === void 0 ? '0x00' : _ref2$value;
             _context.next = 3;
-            return eth_ethereum["d" /* provider */].getGasPrice();
+            return eth_ethereum["e" /* provider */].getGasPrice();
 
           case 3:
             gasPrice = _context.sent;
@@ -195,6 +198,13 @@ var sendTransaction = /*#__PURE__*/function () {
 
 
 
+
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -341,7 +351,7 @@ var sendTransaction = /*#__PURE__*/function () {
 
 
 
-console.log(eth_ethereum["a" /* FLOKIIPreSaleInterface */]);
+console.log(eth_ethereum["b" /* FLOKIIPreSaleInterface */]);
 /* harmony default export */ var Homevue_type_script_lang_js_ = ({
   name: 'Home',
   components: {},
@@ -351,7 +361,7 @@ console.log(eth_ethereum["a" /* FLOKIIPreSaleInterface */]);
       buyLoading: false,
       amount: 0,
       usdtPrice: 0.007,
-      ethPrice: 0.00000326
+      ethPrice: 0
     };
   },
   filters: {
@@ -378,7 +388,39 @@ console.log(eth_ethereum["a" /* FLOKIIPreSaleInterface */]);
       return 0;
     }
   }),
+  created: function created() {
+    this.getPrices();
+  },
   methods: {
+    getPrices: function getPrices() {
+      var _this = this;
+
+      return Object(asyncToGenerator["a" /* default */])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
+        var _yield$FLOKIIPreSaleC, _yield$FLOKIIPreSaleC2, ethPrice;
+
+        return regeneratorRuntime.wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _context.next = 2;
+                return eth_ethereum["a" /* FLOKIIPreSaleContract */].functions.getEthPrice();
+
+              case 2:
+                _yield$FLOKIIPreSaleC = _context.sent;
+                _yield$FLOKIIPreSaleC2 = Object(slicedToArray["a" /* default */])(_yield$FLOKIIPreSaleC, 1);
+                ethPrice = _yield$FLOKIIPreSaleC2[0];
+                // console.log(this.usdtPrice)
+                // console.log(ethPrice)
+                _this.ethPrice = (_this.usdtPrice / ethPrice).toFixed(8); // console.log(ethPrice.div(1e6).mul(this.usdtPrice));
+
+              case 6:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    },
     unlockByWalletConnect: function unlockByWalletConnect() {
       // console.log('xxx');
       // this.$store.dispatch('unlockByMetaMask');
@@ -402,72 +444,10 @@ console.log(eth_ethereum["a" /* FLOKIIPreSaleInterface */]);
       }
     },
     ethBuySubmit: function ethBuySubmit() {
-      var _this = this;
-
-      return Object(asyncToGenerator["a" /* default */])( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
-        var txHash, claimTx;
-        return regeneratorRuntime.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                if (_this.amount) {
-                  _context.next = 3;
-                  break;
-                }
-
-                __g_root__.$bvToast.toast('Please input amount', {
-                  title: _this.$t('tip'),
-                  variant: 'fail',
-                  autoHideDelay: 5000
-                });
-
-                return _context.abrupt("return", false);
-
-              case 3:
-                _this.buyLoading = true;
-                _context.next = 6;
-                return common_sendTransaction({
-                  to: config["a" /* default */].FLOKIIPreSaleAddress,
-                  value: ethers["utils"].hexValue(_this.ethPrice * _this.amount * 1e18),
-                  data: eth_ethereum["a" /* FLOKIIPreSaleInterface */].encodeFunctionData('purchaseByETH()')
-                });
-
-              case 6:
-                txHash = _context.sent;
-                _context.next = 9;
-                return eth_ethereum["d" /* provider */].waitForTransaction(txHash);
-
-              case 9:
-                claimTx = _context.sent;
-                _this.buyLoading = false;
-
-                if (claimTx.status === 1) {
-                  __g_root__.$bvToast.toast('Buy success', {
-                    title: _this.$t('tip'),
-                    variant: 'success',
-                    autoHideDelay: 5000
-                  });
-                } else {
-                  __g_root__.$bvToast.toast('Buy fail', {
-                    title: _this.$t('tip'),
-                    variant: 'danger',
-                    autoHideDelay: 5000
-                  });
-                }
-
-              case 12:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee);
-      }))();
-    },
-    usdtBuySubmit: function usdtBuySubmit() {
       var _this2 = this;
 
       return Object(asyncToGenerator["a" /* default */])( /*#__PURE__*/regeneratorRuntime.mark(function _callee2() {
-        var realPrice, allowance, approveTxHash, approveTx, bidTxHash, bidTx;
+        var txHash, claimTx;
         return regeneratorRuntime.wrap(function _callee2$(_context2) {
           while (1) {
             switch (_context2.prev = _context2.next) {
@@ -486,47 +466,109 @@ console.log(eth_ethereum["a" /* FLOKIIPreSaleInterface */]);
                 return _context2.abrupt("return", false);
 
               case 3:
-                realPrice = _this2.amount * _this2.usdtPrice;
+                _this2.buyLoading = true;
                 _context2.next = 6;
-                return eth_ethereum["b" /* USDTContract */].allowance(ethereum.selectedAddress, config["a" /* default */].FLOKIIPreSaleAddress);
+                return common_sendTransaction({
+                  to: config["a" /* default */].FLOKIIPreSaleAddress,
+                  value: ethers["utils"].hexValue(_this2.ethPrice * _this2.amount * 1e18),
+                  data: eth_ethereum["b" /* FLOKIIPreSaleInterface */].encodeFunctionData('purchaseByETH()')
+                });
 
               case 6:
-                allowance = _context2.sent;
-                console.log(allowance);
+                txHash = _context2.sent;
+                _context2.next = 9;
+                return eth_ethereum["e" /* provider */].waitForTransaction(txHash);
 
-                if (!allowance.lt(realPrice * 1e6)) {
-                  _context2.next = 21;
+              case 9:
+                claimTx = _context2.sent;
+                _this2.buyLoading = false;
+
+                if (claimTx.status === 1) {
+                  __g_root__.$bvToast.toast('Buy success', {
+                    title: _this2.$t('tip'),
+                    variant: 'success',
+                    autoHideDelay: 5000
+                  });
+                } else {
+                  __g_root__.$bvToast.toast('Buy fail', {
+                    title: _this2.$t('tip'),
+                    variant: 'danger',
+                    autoHideDelay: 5000
+                  });
+                }
+
+              case 12:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2);
+      }))();
+    },
+    usdtBuySubmit: function usdtBuySubmit() {
+      var _this3 = this;
+
+      return Object(asyncToGenerator["a" /* default */])( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
+        var realPrice, allowance, approveTxHash, approveTx, bidTxHash, bidTx;
+        return regeneratorRuntime.wrap(function _callee3$(_context3) {
+          while (1) {
+            switch (_context3.prev = _context3.next) {
+              case 0:
+                if (_this3.amount) {
+                  _context3.next = 3;
                   break;
                 }
 
-                _this2.submitting = true;
-                _context2.next = 12;
+                __g_root__.$bvToast.toast('Please input amount', {
+                  title: _this3.$t('tip'),
+                  variant: 'fail',
+                  autoHideDelay: 5000
+                });
+
+                return _context3.abrupt("return", false);
+
+              case 3:
+                realPrice = _this3.amount * _this3.usdtPrice;
+                _context3.next = 6;
+                return eth_ethereum["c" /* USDTContract */].allowance(ethereum.selectedAddress, config["a" /* default */].FLOKIIPreSaleAddress);
+
+              case 6:
+                allowance = _context3.sent;
+                console.log(allowance);
+
+                if (!allowance.lt(realPrice * 1e6)) {
+                  _context3.next = 21;
+                  break;
+                }
+
+                _this3.submitting = true;
+                _context3.next = 12;
                 return common_sendTransaction({
                   to: config["a" /* default */].USDTAddress,
-                  data: eth_ethereum["c" /* USDTInterface */].encodeFunctionData('approve', [config["a" /* default */].FLOKIIPreSaleAddress, bignumber["a" /* BigNumber */].from('9'.repeat(32)).toHexString()])
+                  data: eth_ethereum["d" /* USDTInterface */].encodeFunctionData('approve', [config["a" /* default */].FLOKIIPreSaleAddress, bignumber["a" /* BigNumber */].from('9'.repeat(32)).toHexString()])
                 });
 
               case 12:
-                approveTxHash = _context2.sent;
-                _context2.next = 15;
-                return eth_ethereum["d" /* provider */].waitForTransaction(approveTxHash);
+                approveTxHash = _context3.sent;
+                _context3.next = 15;
+                return eth_ethereum["e" /* provider */].waitForTransaction(approveTxHash);
 
               case 15:
-                approveTx = _context2.sent;
+                approveTx = _context3.sent;
 
                 if (!(approveTx.status !== 1)) {
-                  _context2.next = 20;
+                  _context3.next = 20;
                   break;
                 }
 
                 __g_root__.$bvToast.toast('Approve fail', {
-                  title: _this2.$t('tip'),
+                  title: _this3.$t('tip'),
                   variant: 'danger',
                   autoHideDelay: 5000
                 });
 
-                _this2.submitting = false;
-                return _context2.abrupt("return");
+                _this3.submitting = false;
+                return _context3.abrupt("return");
 
               case 20:
                 console.log(approveTx);
@@ -536,31 +578,31 @@ console.log(eth_ethereum["a" /* FLOKIIPreSaleInterface */]);
                 //   this.pricestate = false;
                 //   return;
                 // }
-                _this2.submitting = true;
-                _context2.next = 24;
+                _this3.submitting = true;
+                _context3.next = 24;
                 return common_sendTransaction({
                   to: config["a" /* default */].FLOKIIPreSaleAddress,
                   gas: 960000,
-                  data: eth_ethereum["a" /* FLOKIIPreSaleInterface */].encodeFunctionData('purchaseByUSDT', [realPrice * 1e6])
+                  data: eth_ethereum["b" /* FLOKIIPreSaleInterface */].encodeFunctionData('purchaseByUSDT', [realPrice * 1e6])
                 });
 
               case 24:
-                bidTxHash = _context2.sent;
-                _context2.next = 27;
-                return eth_ethereum["d" /* provider */].waitForTransaction(bidTxHash);
+                bidTxHash = _context3.sent;
+                _context3.next = 27;
+                return eth_ethereum["e" /* provider */].waitForTransaction(bidTxHash);
 
               case 27:
-                bidTx = _context2.sent;
+                bidTx = _context3.sent;
 
                 if (bidTx.status === 1) {
                   __g_root__.$bvToast.toast('Buy success.', {
-                    title: _this2.$t('tip'),
+                    title: _this3.$t('tip'),
                     variant: 'success',
                     autoHideDelay: 5000
                   });
                 } else {
                   __g_root__.$bvToast.toast('Buy fail, please retry.', {
-                    title: _this2.$t('tip'),
+                    title: _this3.$t('tip'),
                     variant: 'danger',
                     autoHideDelay: 5000
                   });
@@ -568,10 +610,10 @@ console.log(eth_ethereum["a" /* FLOKIIPreSaleInterface */]);
 
               case 29:
               case "end":
-                return _context2.stop();
+                return _context3.stop();
             }
           }
-        }, _callee2);
+        }, _callee3);
       }))();
     },
     buyWithETH: function buyWithETH() {
@@ -606,8 +648,8 @@ console.log(eth_ethereum["a" /* FLOKIIPreSaleInterface */]);
 });
 // CONCATENATED MODULE: ./src/views/Home/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var views_Homevue_type_script_lang_js_ = (Homevue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/views/Home/index.vue?vue&type=style&index=0&id=c16e0f78&lang=scss&scoped=true&
-var Homevue_type_style_index_0_id_c16e0f78_lang_scss_scoped_true_ = __webpack_require__("93e3");
+// EXTERNAL MODULE: ./src/views/Home/index.vue?vue&type=style&index=0&id=67c4cc01&lang=scss&scoped=true&
+var Homevue_type_style_index_0_id_67c4cc01_lang_scss_scoped_true_ = __webpack_require__("f2a7");
 
 // EXTERNAL MODULE: ./src/views/Home/index.vue?vue&type=style&index=1&lang=scss&
 var Homevue_type_style_index_1_lang_scss_ = __webpack_require__("0821");
@@ -631,7 +673,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   null,
-  "c16e0f78",
+  "67c4cc01",
   null
   
 )
@@ -711,17 +753,6 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAABy
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "client/img/icon_twitter.e8698e5a.png";
-
-/***/ }),
-
-/***/ "93e3":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_c16e0f78_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("fc75");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_c16e0f78_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_c16e0f78_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
 
 /***/ }),
 
@@ -872,7 +903,18 @@ module.exports = __webpack_require__.p + "client/img/top_logo.b565e6fd.png";
 
 /***/ }),
 
-/***/ "fc75":
+/***/ "f2a7":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_67c4cc01_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f431");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_67c4cc01_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_67c4cc01_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+
+
+/***/ }),
+
+/***/ "f431":
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
