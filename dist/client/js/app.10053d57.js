@@ -69,7 +69,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "client/js/" + ({}[chunkId]||chunkId) + "." + {"chunk-12fb7c36":"f2c319ab"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "client/js/" + ({}[chunkId]||chunkId) + "." + {"chunk-0f2ab7fc":"80dffe67"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -103,11 +103,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"chunk-12fb7c36":1};
+/******/ 		var cssChunks = {"chunk-0f2ab7fc":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "client/css/" + ({}[chunkId]||chunkId) + "." + {"chunk-12fb7c36":"6e83907b"}[chunkId] + ".css";
+/******/ 				var href = "client/css/" + ({}[chunkId]||chunkId) + "." + {"chunk-0f2ab7fc":"cdbdea43"}[chunkId] + ".css";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
@@ -1184,7 +1184,7 @@ var routes = [{
     path: '/',
     name: 'Home',
     component: function component() {
-      return __webpack_require__.e(/* import() */ "chunk-12fb7c36").then(__webpack_require__.bind(null, "16c0"));
+      return __webpack_require__.e(/* import() */ "chunk-0f2ab7fc").then(__webpack_require__.bind(null, "16c0"));
     }
   } // {
   //   path: '/auction',
@@ -1920,10 +1920,11 @@ module.exports = function (Component) {
   // approveAllowance: '0xf000000000000000000000000000000000000000000000000000000000000000',
   // minAllowance: 10 ** 30,
   // appId: '1234567',
-  // gethServer: 'https://mainnet.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4', 主网
-  // chainId: 1,
-  gethServer: 'https://kovan.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
-  chainId: 42,
+  gethServer: 'https://mainnet.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
+  // 主网
+  chainId: 1,
+  // gethServer: 'https://kovan.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
+  // chainId: 42,
   addressZero: '0x0000000000000000000000000000000000000000',
   hashZero: '0x0000000000000000000000000000000000000000000000000000000000000000',
   // 本地测试节点
@@ -1940,9 +1941,12 @@ module.exports = function (Component) {
   // PreSale合约: 0x5AA963b711D8fD4944BeA18600d1bb8cd73Bc343
   // https://kovan.etherscan.io/address/0x1C18f55aDa4144317edeC16452dFe96bd0Bc17F6#contracts
   // https://kovan.etherscan.io/address/0x5AA963b711D8fD4944BeA18600d1bb8cd73Bc343#contracts
-  FLOKIIPreSaleAddress: '0x5AA963b711D8fD4944BeA18600d1bb8cd73Bc343',
-  FlokiKishuAddress: '0x1C18f55aDa4144317edeC16452dFe96bd0Bc17F6',
-  USDTAddress: '0xEBA2a7912bC80edf9966648ae0c43190CDDffAeC',
+  // FLOKIIPreSaleAddress: '0xFf4DB8E71a8e2655e9295C2C817aC86e65767db1',
+  // FlokiKishuAddress: '0x1C18f55aDa4144317edeC16452dFe96bd0Bc17F6',
+  // USDTAddress: '0xEBA2a7912bC80edf9966648ae0c43190CDDffAeC',
+  FLOKIIPreSaleAddress: '0xaF3Ab58B158C4779B53B00F9FcA2565427C9F430',
+  FlokiKishuAddress: '0xFf4DB8E71a8e2655e9295C2C817aC86e65767db1',
+  USDTAddress: '0xdac17f958d2ee523a2206206994597c13d831ec7',
   // FLOKII(ERC20 Token):0xb5a08D63Cef12584681D586D64413b38Cf5DC4F1
   // PreSale合约:0xD2AF25E09147daB4f60B099249F4F35d398C8397
   pinataUrlPrefix: 'https://ipfs.io/ipfs/',
@@ -1965,10 +1969,11 @@ module.exports = function (Component) {
   // approveAllowance: '0xf000000000000000000000000000000000000000000000000000000000000000',
   // minAllowance: 10 ** 30,
   // appId: '1234567',
-  // gethServer: 'https://mainnet.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4', 主网
-  // chainId: 1,
-  gethServer: 'https://kovan.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
-  chainId: 42,
+  gethServer: 'https://mainnet.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
+  // 主网
+  chainId: 1,
+  // gethServer: 'https://kovan.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
+  // chainId: 42,
   addressZero: '0x0000000000000000000000000000000000000000',
   hashZero: '0x0000000000000000000000000000000000000000000000000000000000000000',
   // 本地测试节点
@@ -2006,10 +2011,11 @@ module.exports = function (Component) {
   // approveAllowance: '0xf000000000000000000000000000000000000000000000000000000000000000',
   // minAllowance: 10 ** 30,
   // appId: '1234567',
-  // gethServer: 'https://mainnet.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4', 主网
-  // chainId: 1,
-  gethServer: 'https://kovan.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
-  chainId: 42,
+  gethServer: 'https://mainnet.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
+  // 主网
+  chainId: 1,
+  // gethServer: 'https://kovan.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
+  // chainId: 42,
   addressZero: '0x0000000000000000000000000000000000000000',
   hashZero: '0x0000000000000000000000000000000000000000000000000000000000000000',
   // 本地测试节点
@@ -2022,9 +2028,9 @@ module.exports = function (Component) {
   // fundraisingToken: 'CER',
   // appDownload: '这是下载二维码',
   appDownload: '这是下载二维码',
-  FLOKIIPreSaleAddress: '0x5AA963b711D8fD4944BeA18600d1bb8cd73Bc343',
-  FlokiKishuAddress: '0x1C18f55aDa4144317edeC16452dFe96bd0Bc17F6',
-  USDTAddress: '0xEBA2a7912bC80edf9966648ae0c43190CDDffAeC',
+  FLOKIIPreSaleAddress: '0xaF3Ab58B158C4779B53B00F9FcA2565427C9F430',
+  FlokiKishuAddress: '0xFf4DB8E71a8e2655e9295C2C817aC86e65767db1',
+  USDTAddress: '0xdac17f958d2ee523a2206206994597c13d831ec7',
   // FLOKII(ERC20 Token):0xb5a08D63Cef12584681D586D64413b38Cf5DC4F1
   // PreSale合约:0xD2AF25E09147daB4f60B099249F4F35d398C8397
   pinataUrlPrefix: 'https://ipfs.io/ipfs/',
