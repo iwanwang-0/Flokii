@@ -69,7 +69,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "client/js/" + ({}[chunkId]||chunkId) + "." + {"chunk-4b88b9e2":"a4b65aec"}[chunkId] + ".js"
+/******/ 		return __webpack_require__.p + "client/js/" + ({}[chunkId]||chunkId) + "." + {"chunk-0966ad96":"c4b1bdc4"}[chunkId] + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -103,11 +103,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"chunk-4b88b9e2":1};
+/******/ 		var cssChunks = {"chunk-0966ad96":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "client/css/" + ({}[chunkId]||chunkId) + "." + {"chunk-4b88b9e2":"c53e8ab7"}[chunkId] + ".css";
+/******/ 				var href = "client/css/" + ({}[chunkId]||chunkId) + "." + {"chunk-0966ad96":"1edb6d82"}[chunkId] + ".css";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
@@ -369,17 +369,6 @@ module.exports = JSON.parse("{\"contractName\":\"CoinBid\",\"abi\":[{\"inputs\":
 /***/ (function(module, exports) {
 
 /* (ignored) */
-
-/***/ }),
-
-/***/ "338f":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_605a6a9a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("a441");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_605a6a9a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_605a6a9a_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
 
 /***/ }),
 
@@ -888,12 +877,12 @@ var web_dom_collections_iterator = __webpack_require__("ddb0");
 // EXTERNAL MODULE: ./node_modules/vue-router/dist/vue-router.esm.js
 var vue_router_esm = __webpack_require__("8c4f");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1abbc31f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/layout/index.vue?vue&type=template&id=605a6a9a&scoped=true&
-var layoutvue_type_template_id_605a6a9a_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-wrapper"},[_c('router-view'),_c('footerbar')],1)}
-var layoutvue_type_template_id_605a6a9a_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"1abbc31f-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/layout/index.vue?vue&type=template&id=0217e85b&scoped=true&
+var layoutvue_type_template_id_0217e85b_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"app-wrapper"},[_c('router-view'),_c('footerbar')],1)}
+var layoutvue_type_template_id_0217e85b_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/layout/index.vue?vue&type=template&id=605a6a9a&scoped=true&
+// CONCATENATED MODULE: ./src/layout/index.vue?vue&type=template&id=0217e85b&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js
 var asyncToGenerator = __webpack_require__("1da1");
@@ -1191,7 +1180,7 @@ if (typeof Footerbarvue_type_custom_index_0_blockType_i18n["default"] === 'funct
               //     console.error(err);
               //   });
               // const { chainId } = window.ethereum;
-              if (!(chainId === '0x2a' || chainId === '0x1')) {
+              if (!(chainId === '0x61' || chainId === '0x38')) {
                 __g_root__.$bvToast.toast(_this.$t('selectNet'), {
                   title: _this.$t('tip'),
                   autoHideDelay: 5000
@@ -1213,8 +1202,8 @@ if (typeof Footerbarvue_type_custom_index_0_blockType_i18n["default"] === 'funct
 });
 // CONCATENATED MODULE: ./src/layout/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var src_layoutvue_type_script_lang_js_ = (layoutvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/layout/index.vue?vue&type=style&index=0&id=605a6a9a&lang=scss&scoped=true&
-var layoutvue_type_style_index_0_id_605a6a9a_lang_scss_scoped_true_ = __webpack_require__("338f");
+// EXTERNAL MODULE: ./src/layout/index.vue?vue&type=style&index=0&id=0217e85b&lang=scss&scoped=true&
+var layoutvue_type_style_index_0_id_0217e85b_lang_scss_scoped_true_ = __webpack_require__("fdd2");
 
 // CONCATENATED MODULE: ./src/layout/index.vue
 
@@ -1227,11 +1216,11 @@ var layoutvue_type_style_index_0_id_605a6a9a_lang_scss_scoped_true_ = __webpack_
 
 var layout_component = Object(componentNormalizer["a" /* default */])(
   src_layoutvue_type_script_lang_js_,
-  layoutvue_type_template_id_605a6a9a_scoped_true_render,
-  layoutvue_type_template_id_605a6a9a_scoped_true_staticRenderFns,
+  layoutvue_type_template_id_0217e85b_scoped_true_render,
+  layoutvue_type_template_id_0217e85b_scoped_true_staticRenderFns,
   false,
   null,
-  "605a6a9a",
+  "0217e85b",
   null
   
 )
@@ -1255,7 +1244,7 @@ var routes = [{
     path: '/',
     name: 'Home',
     component: function component() {
-      return __webpack_require__.e(/* import() */ "chunk-4b88b9e2").then(__webpack_require__.bind(null, "16c0"));
+      return __webpack_require__.e(/* import() */ "chunk-0966ad96").then(__webpack_require__.bind(null, "16c0"));
     }
   } // {
   //   path: '/auction',
@@ -1799,6 +1788,13 @@ window.__g_root__ = new vue_common_default.a({
 
 /***/ }),
 
+/***/ "5c78":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ 6:
 /***/ (function(module, exports) {
 
@@ -1873,13 +1869,6 @@ module.exports = JSON.parse("{\"contractName\":\"FlokiKishu\",\"abi\":[{\"inputs
 /* harmony import */ var _node_modules_kazupon_vue_i18n_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footerbar_vue_vue_type_custom_index_0_blockType_i18n__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("e4a4");
 /* harmony import */ var _node_modules_kazupon_vue_i18n_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footerbar_vue_vue_type_custom_index_0_blockType_i18n__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_kazupon_vue_i18n_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footerbar_vue_vue_type_custom_index_0_blockType_i18n__WEBPACK_IMPORTED_MODULE_0__);
  /* harmony default export */ __webpack_exports__["default"] = (_node_modules_kazupon_vue_i18n_loader_lib_index_js_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Footerbar_vue_vue_type_custom_index_0_blockType_i18n__WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
-/***/ "a441":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -2021,11 +2010,11 @@ module.exports = function (Component) {
   // approveAllowance: '0xf000000000000000000000000000000000000000000000000000000000000000',
   // minAllowance: 10 ** 30,
   // appId: '1234567',
-  gethServer: 'https://mainnet.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
+  gethServer: 'https://bsc-dataseed1.binance.org',
   // 主网
-  chainId: 1,
+  chainId: 56,
   // gethServer: 'https://kovan.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
-  // chainId: 42,
+  // chainId: 97,
   addressZero: '0x0000000000000000000000000000000000000000',
   hashZero: '0x0000000000000000000000000000000000000000000000000000000000000000',
   // 本地测试节点
@@ -2034,20 +2023,20 @@ module.exports = function (Component) {
   // gethServer: 'http://0.0.0.0:8545',
   // hydroExchangeAddress: '0x5c0286bef1434b07202a5ae3de38e66130d5280d',
   // hydroProxyAddress: '0x04f67e8b7c39a25e100847cb167460d715215feb',
-  // chainId: 1,
+  // chainId: 56,
   // fundraisingToken: 'CER',
   // appDownload: '这是下载二维码',
   appDownload: '这是下载二维码',
-  // FLOKII(ERC20 Token): 0x1C18f55aDa4144317edeC16452dFe96bd0Bc17F6
-  // PreSale合约: 0x5AA963b711D8fD4944BeA18600d1bb8cd73Bc343
+  // FLOKII(ERC20 Token): 0xc4e1444aD27b77B6226C85C295Bd881Bf220bBB6
+  // PreSale合约: 0xFA7B9e9031dbCa64c9F504C8F3c7013B3A63Bc81
   // https://kovan.etherscan.io/address/0x1C18f55aDa4144317edeC16452dFe96bd0Bc17F6#contracts
   // https://kovan.etherscan.io/address/0x5AA963b711D8fD4944BeA18600d1bb8cd73Bc343#contracts
-  // FLOKIIPreSaleAddress: '0xFf4DB8E71a8e2655e9295C2C817aC86e65767db1',
-  // FlokiKishuAddress: '0x1C18f55aDa4144317edeC16452dFe96bd0Bc17F6',
+  // FLOKIIPreSaleAddress: '0xFA7B9e9031dbCa64c9F504C8F3c7013B3A63Bc81',
+  // FlokiKishuAddress: '0xc4e1444aD27b77B6226C85C295Bd881Bf220bBB6',
   // USDTAddress: '0xEBA2a7912bC80edf9966648ae0c43190CDDffAeC',
-  FLOKIIPreSaleAddress: '0xdf9d603CFF2Cf40567F42A0604ac1C8414F26BAe',
-  FlokiKishuAddress: '0xFf4DB8E71a8e2655e9295C2C817aC86e65767db1',
-  USDTAddress: '0xdac17f958d2ee523a2206206994597c13d831ec7',
+  FLOKIIPreSaleAddress: '0xFA7B9e9031dbCa64c9F504C8F3c7013B3A63Bc81',
+  FlokiKishuAddress: '0xc4e1444aD27b77B6226C85C295Bd881Bf220bBB6',
+  USDTAddress: '0x55d398326f99059fF775485246999027B3197955',
   // FLOKII(ERC20 Token):0xb5a08D63Cef12584681D586D64413b38Cf5DC4F1
   // PreSale合约:0xD2AF25E09147daB4f60B099249F4F35d398C8397
   pinataUrlPrefix: 'https://ipfs.io/ipfs/',
@@ -2070,11 +2059,11 @@ module.exports = function (Component) {
   // approveAllowance: '0xf000000000000000000000000000000000000000000000000000000000000000',
   // minAllowance: 10 ** 30,
   // appId: '1234567',
-  gethServer: 'https://mainnet.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
+  gethServer: 'https://bsc-dataseed1.binance.org',
   // 主网
-  chainId: 1,
+  chainId: 56,
   // gethServer: 'https://kovan.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
-  // chainId: 42,
+  // chainId: 97,
   addressZero: '0x0000000000000000000000000000000000000000',
   hashZero: '0x0000000000000000000000000000000000000000000000000000000000000000',
   // 本地测试节点
@@ -2083,7 +2072,7 @@ module.exports = function (Component) {
   // gethServer: 'http://0.0.0.0:8545',
   // hydroExchangeAddress: '0x5c0286bef1434b07202a5ae3de38e66130d5280d',
   // hydroProxyAddress: '0x04f67e8b7c39a25e100847cb167460d715215feb',
-  // chainId: 1,
+  // chainId: 56,
   // fundraisingToken: 'CER',
   // appDownload: '这是下载二维码',
   appDownload: '这是下载二维码',
@@ -2112,11 +2101,11 @@ module.exports = function (Component) {
   // approveAllowance: '0xf000000000000000000000000000000000000000000000000000000000000000',
   // minAllowance: 10 ** 30,
   // appId: '1234567',
-  gethServer: 'https://mainnet.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
+  gethServer: 'https://bsc-dataseed1.binance.org',
   // 主网
-  chainId: 1,
+  chainId: 56,
   // gethServer: 'https://kovan.infura.io/v3/6ef437a0bfc743d0bbfe73f72c90afd4',
-  // chainId: 42,
+  // chainId: 97,
   addressZero: '0x0000000000000000000000000000000000000000',
   hashZero: '0x0000000000000000000000000000000000000000000000000000000000000000',
   // 本地测试节点
@@ -2125,13 +2114,13 @@ module.exports = function (Component) {
   // gethServer: 'http://0.0.0.0:8545',
   // hydroExchangeAddress: '0x5c0286bef1434b07202a5ae3de38e66130d5280d',
   // hydroProxyAddress: '0x04f67e8b7c39a25e100847cb167460d715215feb',
-  // chainId: 1,
+  // chainId: 56,
   // fundraisingToken: 'CER',
   // appDownload: '这是下载二维码',
   appDownload: '这是下载二维码',
-  FLOKIIPreSaleAddress: '0xdf9d603CFF2Cf40567F42A0604ac1C8414F26BAe',
-  FlokiKishuAddress: '0xFf4DB8E71a8e2655e9295C2C817aC86e65767db1',
-  USDTAddress: '0xdac17f958d2ee523a2206206994597c13d831ec7',
+  FLOKIIPreSaleAddress: '0xFA7B9e9031dbCa64c9F504C8F3c7013B3A63Bc81',
+  FlokiKishuAddress: '0xc4e1444aD27b77B6226C85C295Bd881Bf220bBB6',
+  USDTAddress: '0x55d398326f99059fF775485246999027B3197955',
   // FLOKII(ERC20 Token):0xb5a08D63Cef12584681D586D64413b38Cf5DC4F1
   // PreSale合约:0xD2AF25E09147daB4f60B099249F4F35d398C8397
   pinataUrlPrefix: 'https://ipfs.io/ipfs/',
@@ -2169,6 +2158,17 @@ module.exports = function (Component) {
   Component.options.__i18n.push('{"en":{"home":"Home","auction":"Auction","governance":"Governance","introduce":"Introduce","signUp":"登录","whitePaper":"White Paper"},"zh":{"home":"首页","auction":"拍卖","governance":"治理","introduce":"介绍","signUp":"登录","whitePaper":"白皮书"}}')
   delete Component.options._Ctor
 }
+
+
+/***/ }),
+
+/***/ "fdd2":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_0217e85b_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("5c78");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_0217e85b_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_0217e85b_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
 
 
 /***/ })
